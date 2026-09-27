@@ -1,0 +1,54 @@
+{
+    "generated_at_utc": "2026-07-08T16:12:37.420986+00:00",
+    "python_version": "3.9.6",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "summary": {
+        "total": 6,
+        "successful": 5,
+        "failed": 1
+    },
+    "results": [
+        {
+            "url": "https://api.github.com",
+            "ok": true,
+            "status_code": 200,
+            "latency_ms": 132.42,
+            "error": null
+        },
+        {
+            "url": "https://jsonplaceholder.typicode.com/posts/1",
+            "ok": true,
+            "status_code": 200,
+            "latency_ms": 231.66,
+            "error": null
+        },
+        {
+            "url": "https://jsonplaceholder.typicode.com/users/1",
+            "ok": true,
+            "status_code": 200,
+            "latency_ms": 239.11,
+            "error": null
+        },
+        {
+            "url": "https://httpbin.org/get",
+            "ok": true,
+            "status_code": 200,
+            "latency_ms": 917.11,
+            "error": null
+        },
+        {
+            "url": "https://httpbin.org/status/503",
+            "ok": false,
+            "status_code": 503,
+            "latency_ms": 884.92,
+            "error": null
+        },
+        {
+            "url": "https://httpbin.org/delay/3",
+            "ok": true,
+            "status_code": 200,
+            "latency_ms": 3990.38,
+            "error": null
+        }
+    ]
+}
